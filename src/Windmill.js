@@ -1,8 +1,7 @@
-
 import React from 'react';
 import './puzzle.scss';
 
-export function Windmill(props) {
+export function Windmill(_props) {
   return (
     <div className="puzzle CalAcademy">
       <p>

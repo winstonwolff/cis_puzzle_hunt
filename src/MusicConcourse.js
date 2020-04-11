@@ -2,7 +2,7 @@ import React from 'react';
 import './puzzle.scss';
 import { Dit } from './Dit.js';
 
-export function MusicConcourse(props) {
+export function MusicConcourse(_props) {
   return (
     <div className="puzzle MusicConcourse">
       <p>
