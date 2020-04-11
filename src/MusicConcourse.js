@@ -1,5 +1,5 @@
 import React from 'react';
-import './puzzle.css';
+import './puzzle.scss';
 
 export function Dit(props) {
   return (
