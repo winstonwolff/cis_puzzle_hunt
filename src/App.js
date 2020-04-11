@@ -17,11 +17,21 @@ class App extends React.Component {
     console.log('answer=', answer)
   }
 
+  linkTo = (comp) => {
+    this.setState( { currentScreen : comp } );
+  }
+
   render() {
+    const ComponentName = this.state.currentScreen;
     return (
       <div className="App">
+        <div className="TempNav">
+          <button key="navbutton1" type="button" onClick={() => this.linkTo(Home)}>Home</button>
+          <button key="navbutton2" type="button" onClick={() => this.linkTo(MusicConcourse)}>Music Concourse</button>
+          <button key="navbutton3" type="button" onClick={() => this.linkTo(AnswerForm)}>Answer Form</button>
+        </div>
         <header className="App-header">
-          <MusicConcourse onClick={this.submitAnswer} />
+          <ComponentName />
         </header>
       </div>
     );
