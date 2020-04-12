@@ -1,9 +1,9 @@
 .puzzle {
   text-align: left;
-  font-size: calc(5px + 2vmin);
   line-height: 1.5;
-  padding: 5px 10px;
+  width: 90%;
+
   @media (min-device-width: 750px) {
-    padding: 10px 50px;
+    margin: 10px 50px;
   }
 }

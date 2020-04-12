@@ -1,0 +1,18 @@
+.Home {
+  .ggPark1897 {
+    border: 1px solid black;
+    border-radius: 3px;
+
+    @media (max-width: 750px) {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 90%;
+    }
+    @media (min-width: 750px) {
+      float: right;
+      margin-left: 15px;
+    }
+  }
+
+}
