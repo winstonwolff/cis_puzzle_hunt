@@ -16,7 +16,7 @@ export class AnswerForm extends React.Component {
 
   sendAnswer = (clickEvent) => {
     clickEvent.preventDefault();
-    if (this.state.answer != this.props.correctAnswer) {
+    if (this.state.answer.toLowerCase() != this.props.correctAnswer.toLowerCase()) {
       console.log("you were wrong");
     } else {
       console.log("currentScreen is ", this.props.currentScreen);

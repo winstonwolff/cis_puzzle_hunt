@@ -16,10 +16,10 @@ export function Windmill(props) {
         Sign of the Queen
         </p>
         <p>
-          6 13 11 8 7 15 12  /  12 _  _ 7 14 5 8 3 _
+          12 _ 11 15 18 10 21 / 8 _ 19 16 4
         </p>
       </blockquote>
-      <AnswerForm correctAnswer="" linkTo={props.linkTo} currentScreen={props.currentScreen} />
+      <AnswerForm correctAnswer="mclaren lodge" linkTo={props.linkTo} currentScreen={props.currentScreen} />
     </div>
   );
 }

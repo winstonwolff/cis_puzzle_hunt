@@ -13,7 +13,7 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      currentScreen: 0,
+      currentScreen: 4,
       navOrder: [Home, CalAcademy, MusicConcourse, Windmill, CliffHanger]
     }
   }
