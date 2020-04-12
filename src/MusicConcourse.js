@@ -46,6 +46,7 @@ export function MusicConcourse(props) {
           <Dit> •-•• --- -••• -••• -•-- </Dit>
         </div>
     </blockquote>
+<<<<<<< HEAD
       <p>
         To solve this puzzle, ask these questions:
         <ul>
@@ -71,6 +72,8 @@ export function MusicConcourse(props) {
         When you have an answer, type it into the website. If you are correct, you will be given the next clue.
       </p>
       <AnswerForm correctAnswer="Cal Academy" linkTo={props.linkTo} currentScreen={props.currentScreen} />
+=======
+>>>>>>> Add some story
 
     </div>
   );
