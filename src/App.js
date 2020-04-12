@@ -1,19 +1,17 @@
 import React from 'react';
 import './App.scss';
+
 import { Home } from './Home.js'
-import { MusicConcourse } from './MusicConcourse.js'
 import { CalAcademy } from './CalAcademy.js'
-import { AnswerForm } from './AnswerForm.js'
+import { MusicConcourse } from './MusicConcourse.js'
 import { Windmill } from './Windmill.js'
-import { About } from './About.js'
 import { CliffHanger } from './CliffHanger.js'
-import './Nav.scss';
 
 class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      currentScreen: 4,
+      currentScreen: 0,
       navOrder: [Home, CalAcademy, MusicConcourse, Windmill, CliffHanger]
     }
   }
