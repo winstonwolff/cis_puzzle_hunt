@@ -6,21 +6,25 @@ export class AnswerForm extends React.Component {
   constructor() {
     super();
     this.state = {
-      answer: ''
+      answer: '',
+      message: null
     }
   }
 
   updateAnswer = (changeEvent) => {
-    this.setState( { answer : changeEvent.target.value } );
+    this.setState( {
+      answer : changeEvent.target.value,
+      message: null,
+    })
   }
 
   sendAnswer = (clickEvent) => {
     clickEvent.preventDefault();
-    if (this.state.answer.toLowerCase() != this.props.correctAnswer.toLowerCase()) {
-      console.log("you were wrong");
+    const actual = this.state.answer.trim().toLowerCase()
+    const correct = this.props.correctAnswer.trim().toLowerCase()
+    if (actual != correct) {
+      this.setState({message: 'Nice try. Keep at it.'})
     } else {
-      console.log("currentScreen is ", this.props.currentScreen);
-      
       this.props.linkTo(this.props.currentScreen + 1);
     }
   }
@@ -37,6 +41,11 @@ export class AnswerForm extends React.Component {
 
           &nbsp;
           <input type="submit" onClick={this.sendAnswer} value="Submit" />
+          { this.state.message && (
+            <div className="message">
+              { this.state.message }
+            </div>)
+          }
         </div>
       </form>
     );
