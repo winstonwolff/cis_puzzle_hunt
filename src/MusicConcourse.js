@@ -5,7 +5,7 @@ import { CenterImage } from './Image.js'
 import { AnswerForm } from './AnswerForm'
 import musicConcourse from './MusicConcourse.png'
 
-export function MusicConcourse(_props) {
+export function MusicConcourse(props) {
   return (
     <div className="puzzle MusicConcourse">
       <CenterImage src={musicConcourse} />
@@ -70,7 +70,7 @@ export function MusicConcourse(_props) {
       <p>
         When you have an answer, type it into the website. If you are correct, you will be given the next clue.
       </p>
-      <AnswerForm correctAnswer="Cal Academy" linkTo={_props.linkTo} comp={_props.comp} />
+      <AnswerForm correctAnswer="Cal Academy" linkTo={props.linkTo} currentScreen={props.currentScreen} />
 
     </div>
   );

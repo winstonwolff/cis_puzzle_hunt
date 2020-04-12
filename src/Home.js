@@ -1,10 +1,11 @@
 import React from 'react'
 import ggPark1897 from './GG-park-1897-stereo.jpg'
 import { InlineImage } from './Image.js'
+import { AnswerForm } from './AnswerForm'
 import "./puzzle.scss"
 import "./Home.scss"
 
-export function Home(_props) {
+export function Home(props) {
   return (
     <div className="puzzle Home">
       <InlineImage className="ggPark1897" src={ggPark1897} />
@@ -35,6 +36,7 @@ export function Home(_props) {
       <p>
         To begin the game, click on the Answer Form above, and enter the first location: "Music Concourse"
       </p>
+      <AnswerForm correctAnswer="Music Concourse" linkTo={props.linkTo} currentScreen={props.currentScreen} />
     </div>
   );
 }

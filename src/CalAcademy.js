@@ -1,6 +1,7 @@
 import React from 'react';
 import './puzzle.scss';
 import { Dit } from './Dit.js';
+import { AnswerForm } from './AnswerForm'
 
 export function CalAcademy(props) {
   return (
@@ -50,6 +51,7 @@ export function CalAcademy(props) {
           (8) paddles
         </div>
       </blockquote>
+      <AnswerForm correctAnswer="Windmill" linkTo={props.linkTo} currentScreen={props.currentScreen} />
     </div>
   );
 }

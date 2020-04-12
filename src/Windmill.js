@@ -1,5 +1,6 @@
 import React from 'react';
 import './puzzle.scss';
+import { AnswerForm } from './AnswerForm'
 
 export function Windmill(_props) {
   return (

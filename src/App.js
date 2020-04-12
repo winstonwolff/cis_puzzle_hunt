@@ -11,7 +11,8 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      currentScreen: Home 
+      currentScreen: 0,
+      navOrder: [Home, MusicConcourse, CalAcademy, Windmill]
     }
   }
 
@@ -24,18 +25,17 @@ class App extends React.Component {
   }
 
   render() {
-    const ComponentName = this.state.currentScreen;
+    const ComponentName = this.state.navOrder[this.state.currentScreen];
     return (
       <div className="App">
         <nav className="Nav">
-          <button key="navbutton1" type="button" onClick={() => this.linkTo(Home)}>Home</button>
-          <button key="navbutton2" type="button" onClick={() => this.linkTo(MusicConcourse)}>Music Concourse</button>
-          <button key="navbutton3" type="button" onClick={() => this.linkTo(AnswerForm)}>Answer Form</button>
-          <button key="navbutton4" type="button" onClick={() => this.linkTo(CalAcademy)}>Cal Academy</button>
-          <button key="navbutton5" type="button" onClick={() => this.linkTo(Windmill)}>Windmill</button>
+          <button key="navbutton1" type="button" onClick={() => this.linkTo(0)}>Home</button>
+          <button key="navbutton2" type="button" onClick={() => this.linkTo(1)}>Music Concourse</button>
+          <button key="navbutton3" type="button" onClick={() => this.linkTo(2)}>Cal Academy</button>
+          <button key="navbutton4" type="button" onClick={() => this.linkTo(3)}>Windmill</button>
         </nav>
         <header className="App-header">
-          <ComponentName linkTo={this.linkTo} comp={CalAcademy} />
+          <ComponentName linkTo={this.linkTo} currentScreen={this.state.currentScreen} />
         </header>
       </div>
     );
