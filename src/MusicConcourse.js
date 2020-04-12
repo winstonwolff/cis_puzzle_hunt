@@ -2,6 +2,7 @@ import React from 'react';
 import './puzzle.scss';
 import { Dit } from './Dit.js';
 import { CenterImage } from './Image.js'
+import { AnswerForm } from './AnswerForm'
 import musicConcourse from './MusicConcourse.png'
 
 export function MusicConcourse(_props) {
@@ -69,6 +70,7 @@ export function MusicConcourse(_props) {
       <p>
         When you have an answer, type it into the website. If you are correct, you will be given the next clue.
       </p>
+      <AnswerForm correctAnswer="Cal Academy" linkTo={_props.linkTo} comp={_props.comp} />
 
     </div>
   );

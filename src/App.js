@@ -35,7 +35,7 @@ class App extends React.Component {
           <button key="navbutton5" type="button" onClick={() => this.linkTo(Windmill)}>Windmill</button>
         </nav>
         <header className="App-header">
-          <ComponentName />
+          <ComponentName linkTo={this.linkTo} comp={CalAcademy} />
         </header>
       </div>
     );

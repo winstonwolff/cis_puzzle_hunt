@@ -15,7 +15,13 @@ export class AnswerForm extends React.Component {
 
   sendAnswer = (clickEvent) => {
     clickEvent.preventDefault();
-    console.log("answer is", this.state.answer);
+    if (this.state.answer != this.props.correctAnswer) {
+      console.log("you were wrong");
+    } else {
+      console.log("you were right");
+      console.log("props are ", this.props);
+      this.props.linkTo(this.props.comp);
+    }
   }
 
   render() {
