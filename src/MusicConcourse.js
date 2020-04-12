@@ -45,36 +45,9 @@ export function MusicConcourse(props) {
           <Dit> •- -•-• •- -•• • -- -•-- / </Dit>
           <Dit> •-•• --- -••• -••• -•-- </Dit>
         </div>
-    </blockquote>
-<<<<<<< HEAD
-      <p>
-        To solve this puzzle, ask these questions:
-        <ul>
-          <li>
-            What can I see at the location clue (
-            <a href="https://www.google.com/maps/place/Music+Concourse/@37.7698876,-122.470756,17z/data=!3m1!4b1!4m5!3m4!1s0x808587426dade263:0xa278dc852e3d48f9!8m2!3d37.7698834!4d-122.4685673">
-              Music Concourse in Google Maps
-            </a>
-            )?
-          </li>
-          <li>
-            No need to search beyond 50 feet of the Music Concourse.
-          </li>
-          <li>
-            How does the word clue relate to the things I see?
-          </li>
-          <li>
-            The answer will be the location of the next puzzle. 
-          </li>
-        </ul>
-      </p>
-      <p>
-        When you have an answer, type it into the website. If you are correct, you will be given the next clue.
-      </p>
-      <AnswerForm correctAnswer="Cal Academy" linkTo={props.linkTo} currentScreen={props.currentScreen} />
-=======
->>>>>>> Add some story
+      </blockquote>
 
+      <AnswerForm correctAnswer="tulips near windmill" linkTo={props.linkTo} currentScreen={props.currentScreen} />
     </div>
   );
 }

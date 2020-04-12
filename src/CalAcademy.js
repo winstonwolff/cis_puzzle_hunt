@@ -1,20 +1,17 @@
 import React from 'react';
 import './puzzle.scss';
 import { Dit } from './Dit.js';
-<<<<<<< HEAD
 import { AnswerForm } from './AnswerForm'
-=======
 import { CenterImage } from './Image.js'
 import calAcademy from './CalAcademy.jpeg'
 import './CalAcademy.scss'
->>>>>>> Add some story
 
 export function CalAcademy(props) {
   return (
     <div className="puzzle CalAcademy">
       <CenterImage src={calAcademy} />
       <p>
-        Did you know today's California Academy of Science was built in 2008? It replaced an earlier building
+        Did you know today's California Academy of Science was built in 2008? It replaced an earlier museum
         from 1916 which in turn replaced the 
         {' '}
         <a href="https://en.wikipedia.org/wiki/California_Midwinter_International_Exposition_of_1894#Manufactures_and_Liberal_Arts_Building">
@@ -79,9 +76,7 @@ export function CalAcademy(props) {
           (8) education and social economy
         </div>
       </blockquote>
-<<<<<<< HEAD
       <AnswerForm correctAnswer="music concourse" linkTo={props.linkTo} currentScreen={props.currentScreen} />
-=======
 
       <hr/>
 
@@ -106,7 +101,6 @@ export function CalAcademy(props) {
       <p>
         When you have an answer, type it into the website. If you are correct, you will be given the next clue.
       </p>
->>>>>>> Add some story
     </div>
   );
 }

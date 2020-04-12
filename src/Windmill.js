@@ -2,7 +2,7 @@ import React from 'react';
 import './puzzle.scss';
 import { AnswerForm } from './AnswerForm'
 
-export function Windmill(_props) {
+export function Windmill(props) {
   return (
     <div className="puzzle CalAcademy">
       <p>
@@ -19,6 +19,7 @@ export function Windmill(_props) {
           6 13 11 8 7 15 12  /  12 _  _ 7 14 5 8 3 _
         </p>
       </blockquote>
+      <AnswerForm correctAnswer="" linkTo={props.linkTo} currentScreen={props.currentScreen} />
     </div>
   );
 }
