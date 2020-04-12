@@ -1,6 +1,7 @@
+- Deploy somewhere.
+- Edit the story--more continuity between Home and story
 - Fix top-bottom white space
 - More images?
-- Edit the story--more continuity between Home and story
 
 DONE
 - message for wrong answer
