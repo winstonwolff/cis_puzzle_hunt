@@ -1,0 +1,24 @@
+@import "./colors.scss";
+
+.App {
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(8px + 1vmin);
+  color: white;
+
+  a {
+    color: #89a979;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+

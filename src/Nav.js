@@ -1,7 +1,7 @@
 import React from 'react';
 import './Nav.scss';
 
-export function Nav(props) {
+export function Nav(_props) {
   return (
     <nav className="Nav">
       <a href="/"> Puzzle Hunt </a>
