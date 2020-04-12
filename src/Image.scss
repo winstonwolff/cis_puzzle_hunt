@@ -1,0 +1,24 @@
+img.Image {
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+img.InlineImage {
+  @media (max-width: 750px) { // phone
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+  }
+  @media (min-width: 750px) { // desktop
+    float: right;
+    margin-left: 15px;
+  }
+}
+
+img.CenterImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+}

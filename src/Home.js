@@ -1,16 +1,17 @@
 import React from 'react'
 import ggPark1897 from './GG-park-1897-stereo.jpg'
+import { InlineImage } from './Image.js'
 import "./puzzle.scss"
 import "./Home.scss"
 
 export function Home(_props) {
   return (
     <div className="puzzle Home">
+      <InlineImage className="ggPark1897" src={ggPark1897} />
       <h1> Golden Gate Puzzle Hunt </h1>
-      <img className="ggPark1897" src={ggPark1897} />
       <p>
         This game is a puzzle hunt—your team starts at a virtual location with a puzzle.
-        You solve the puzzle and the answer leads to a new location and puzzle. We
+        When you solve the puzzle, your answer leads to a new location and puzzle. We
         recommend playing as a team of several people. It could be your whole family,
         or some friends over video conferencing. Teams with a variety of backgrounds
         often do better.
