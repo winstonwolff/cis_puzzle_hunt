@@ -1,0 +1,51 @@
+// Colors
+
+$red: #cc3935;
+$red_orange: #ff4f00;
+$brick: #b54a47;
+
+$orange: #c76d09;
+$orange_dark: #b55500;
+
+$yellow: #d6c229;
+$green: #7ab24d;
+$olive: #74a67a;
+
+$blue_light: #75c4ea;
+$blue: #4897be;
+$blue_dark: #3a7a97;
+$blue_darker: #065671;
+
+$violet: #819dd6;
+
+/*
+Python 3:
+def grey_shades(black, white, count=10):
+    start = black * 10
+    end = white * 10
+    interval = (end - start) // (count - 1)
+    return list(hex(x // 10) for x in range(start, end, interval))
+
+c = grey_shades(0x2d, 0xf0)
+
+*/
+
+$blackish: #2d2d2d;
+$gray_10: #404040; // 10% lighter than $blackish
+$gray_20: #545454;
+$gray_30: #676767;
+$gray_40: #7b7b7b;
+$gray_50: #8e8e8e;
+$gray_60: #a2a2a2;
+$gray_70: #b5b5b5;
+$gray_80: #c9c9c9;
+$gray_90: #dcdcdc;
+$whiteish: #f0f2f2;
+
+$transparent: rgba(0,0,0,0);
+
+/* Logical Colors */
+$color_clickable: $blue_light;
+$color_clickable_disabled: $gray_70;
+$color_inconspicuous: $gray_90;
+$color_error: $red;

@@ -1,13 +1,6 @@
 import React from 'react';
-import './puzzle.css';
-
-export function Dit(props) {
-  return (
-    <span className="Dit">
-      { props.children }
-    </span>
-  );
-}
+import './puzzle.scss';
+import { Dit } from './Dit.js';
 
 export function MusicConcourse(props) {
   return (

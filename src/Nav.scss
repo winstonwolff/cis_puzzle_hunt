@@ -1,0 +1,24 @@
+@import "colors.scss";
+
+$gray_10: #404040;
+
+nav.Nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  background-color: $gray_20;
+
+  button {
+    background-color: transparent;
+    border: none;
+    font-size: calc(5px + 2vmin);
+    display: inline-block;
+    width: 120px;
+    color: $gray_80;
+    text-decoration: none;
+
+    &:hover {
+      background-color: $color_clickable;
+    }
+  }
+}
