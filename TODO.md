@@ -1,3 +1,4 @@
+- Some of the puzzles need to be updated
 - Deploy somewhere.
 - Edit the story--more continuity between Home and story
 - Fix top-bottom white space
