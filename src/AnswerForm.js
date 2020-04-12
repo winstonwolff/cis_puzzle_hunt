@@ -15,12 +15,9 @@ export class AnswerForm extends React.Component {
 
   sendAnswer = (clickEvent) => {
     clickEvent.preventDefault();
-    console.log("answer is ", this.state.answer);
-    console.log("cooranswer is ", this.props.correctAnswer);
     if (this.state.answer != this.props.correctAnswer) {
       console.log("you were wrong");
     } else {
-      console.log("you were right");
       console.log("currentScreen is ", this.props.currentScreen);
       
       this.props.linkTo(this.props.currentScreen + 1);
