@@ -34,9 +34,9 @@ export function Home(props) {
 
       <h2> Start the Game </h2>
       <p>
-        To begin the game, click on the Answer Form above, and enter the first location: "Music Concourse"
+        To begin the game, click on the Answer Form above, and enter the first location: "cal academy lobby"
       </p>
-      <AnswerForm correctAnswer="Music Concourse" linkTo={props.linkTo} currentScreen={props.currentScreen} />
+      <AnswerForm correctAnswer="cal academy lobby" linkTo={props.linkTo} currentScreen={props.currentScreen} />
     </div>
   );
 }

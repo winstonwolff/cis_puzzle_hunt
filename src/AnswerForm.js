@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'
+import './AnswerForm.scss'
 
 export class AnswerForm extends React.Component {
 
@@ -29,16 +30,15 @@ export class AnswerForm extends React.Component {
       <form className="AnswerForm">
         <div>
           <label>
-            What is the answer:
+            What is your answer:
+            &nbsp;
             <input className="answer" type="text" onChange={this.updateAnswer} />
           </label>
-        </div>
-        <div>
+
+          &nbsp;
           <input type="submit" onClick={this.sendAnswer} value="Submit" />
         </div>
       </form>
     );
   }
 }
-
-

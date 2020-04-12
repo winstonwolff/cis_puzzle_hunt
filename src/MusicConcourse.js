@@ -22,7 +22,7 @@ export function MusicConcourse(props) {
 
         <div>
           D _ _ _ =
-            <Dit>- •••• •• ••• /</Dit>
+            <Dit> - •••• •• ••• /</Dit>
             <Dit> •• ••• /</Dit>
             <Dit> -• --- - /</Dit>
             <Dit> •• • /</Dit>

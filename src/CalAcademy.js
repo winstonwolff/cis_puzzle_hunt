@@ -42,7 +42,7 @@ export function CalAcademy(props) {
           (5) Robin Williams meadow
         </div>
         <div>
-          (6) tulips near windmill
+          (6) music concourse
         </div>
         <div>
           (7) bison
@@ -51,7 +51,7 @@ export function CalAcademy(props) {
           (8) paddles
         </div>
       </blockquote>
-      <AnswerForm correctAnswer="Windmill" linkTo={props.linkTo} currentScreen={props.currentScreen} />
+      <AnswerForm correctAnswer="music concourse" linkTo={props.linkTo} currentScreen={props.currentScreen} />
     </div>
   );
 }

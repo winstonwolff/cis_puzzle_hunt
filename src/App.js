@@ -12,7 +12,7 @@ class App extends React.Component {
     super();
     this.state = {
       currentScreen: 0,
-      navOrder: [Home, MusicConcourse, CalAcademy, Windmill]
+      navOrder: [Home, CalAcademy, MusicConcourse, Windmill]
     }
   }
 
