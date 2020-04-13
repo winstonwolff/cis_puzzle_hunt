@@ -11,4 +11,9 @@ Developer Setup
 ---------------
 - `yarn start`  starts app at http://localhost:3000
 - `yarn test`
-- `yarn build`
+
+Deploy to production
+-------------------
+
+
+  yarn build

@@ -9,7 +9,7 @@ import { Dit } from './Dit.js'
 export function Dah(props) {
   let dotsDashes = props.code
   dotsDashes = dotsDashes.replace(/\./g, '•' )
-  dotsDashes = dotsDashes.replace(/ /g, '\xA0' )
+  dotsDashes = dotsDashes.replace(/ /g, '\xA0\xA0' )
   dotsDashes = dotsDashes.replace(/\//g, '/|' )
   const words = dotsDashes.split('|')
 
