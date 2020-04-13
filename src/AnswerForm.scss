@@ -2,17 +2,11 @@
 
 .AnswerForm {
   input {
-    border: none;
-    height: 22px;
-    border-radius: 2px;
+    @include std_text_input;
   }
 
   input[type='submit'] {
-    background-color: $color_clickable;
-    border: none;
-    height: 24px;
-    border-radius: 2px;
-    color: white;
+    @include std_button;
   }
 
   .message {

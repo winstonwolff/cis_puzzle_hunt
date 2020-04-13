@@ -50,3 +50,19 @@ $color_clickable: $green_sage;
 $color_clickable_disabled: $gray_70;
 $color_inconspicuous: $gray_90;
 $color_error: $red;
+
+@mixin std_text_input {
+  border: none;
+  height: 22px;
+  border-radius: 2px;
+  padding: 0 5px;
+  font-size: 14px;
+}
+
+@mixin std_button {
+  background-color: $color_clickable;
+  border: none;
+  height: 24px; // matches 22px input
+  border-radius: 2px;
+  color: white;
+}

@@ -22,7 +22,7 @@ export class AnswerForm extends React.Component {
     clickEvent.preventDefault();
     const actual = this.state.answer.trim().toLowerCase()
     const correct = this.props.correctAnswer.trim().toLowerCase()
-    if (actual != correct) {
+    if (actual !== correct) {
       this.setState({message: 'Nice try. Keep at it.'})
     } else {
       this.props.linkTo(this.props.currentScreen + 1);
