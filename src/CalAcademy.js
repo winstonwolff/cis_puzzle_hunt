@@ -1,6 +1,6 @@
 import React from 'react';
 import './puzzle.scss';
-import { Dit } from './Dit.js';
+import { Dah } from './Dah.js';
 import { AnswerForm } from './AnswerForm'
 import { CenterImage } from './Image.js'
 import calAcademy from './CalAcademy.jpeg'
@@ -41,11 +41,7 @@ export function CalAcademy(props) {
         </p>
         <p>
           <blockquote>
-            <Dit> -•-•   ---   ••-   -•   -   / </Dit>
-            <Dit> -••   ••   -•   ---   •••   •-   ••-   •-•   / </Dit>
-            <Dit> -   ---   •   •••   / </Dit>
-            <Dit> -   ---   / </Dit>
-            <Dit> -•-•   ••••   ---   ---   •••   • </Dit>
+            <Dah code="-.-. --- ..- -. - / -.. .. -. --- ... .- ..- .-. / - --- . ... / - --- / -.-. .... --- --- ... ." />
           </blockquote>
         </p>
         <div>
