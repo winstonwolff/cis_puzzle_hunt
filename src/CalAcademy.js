@@ -11,29 +11,26 @@ export function CalAcademy(props) {
     <div className="puzzle CalAcademy">
       <CenterImage src={calAcademy} />
       <p>
-        Did you know today's California Academy of Science was built in 2008? It replaced an earlier museum
-        from 1916 which in turn replaced the 
+        Goldan Gate Park just celebrated it's 150-year-old birthday. It's home to great
+        buildings like the Conservatory of Flowers (opened 1879). Bison have lived there since 1891
+        and newer stuff like the Hardly Strickly Bluegrass Festival and the California Academy of
+        Science. A funny story is told about a puzzle hunt at the 
         {' '}
-        <a href="https://en.wikipedia.org/wiki/California_Midwinter_International_Exposition_of_1894#Manufactures_and_Liberal_Arts_Building">
-          Mechanical Arts Building
-        </a> from the late 1800's.  A funny story is told about a puzzle hunt at the 
+        <a href="https://en.wikipedia.org/wiki/California_Midwinter_International_Exposition_of_1894#Mechanical_Arts_Building">Midwinter International Exposition</a>
         {' '}
-        <a href="https://en.wikipedia.org/wiki/Panama%E2%80%93Pacific_International_Exposition#Commemorations">Pan Pacific International Exposition</a>
-        {' '}
-        where
-        the a globe of solid gold in the original building was to be the prize. It would have been worth $32 billion. Historians
-        however doubt that the story is real.
+        where the a globe of solid gold was to be the prize. It would have been worth $32 billion.
+        Historians however doubt that the story is real.
       </p>
       <p>
-        Another funny story from the 2008 renovation, a construction worker by the name of
-        Walter Döggflava, working on the dinosaur skeleton, found a corroded brass cylinder. He
-        thought it was junk and dropped it in his truck.  Mr. Döggflava recalls that night he needed
-        a doorstop for his kitchen and used that old brass cylinder. He's been using it ever since until
-        earlier this year, Mr Döggflava slammed the door too hard, broke the cylinder, and it revealed a
-        piece of paper inside. Mr.  Döggflava thinks the note is some 
-        visitor's list of the attractions they wanted to see
-        at the exposition. He's been curious about the funny scribbles at the top. He says it is some form of
-        {' '}<a href="https://en.wikipedia.org/wiki/Gregg_shorthand">shorthand</a> but has not been able to translate it.
+        When the California Academy of Science (the place with the fish and penguins!) was last
+        remodeled, a construction worker by the name of Walter Döggflava, was moving the dinosaur
+        skeleton.  He found a corroded brass cylinder—he thought it was junk and dropped it in his
+        truck.  Mr. Döggflava recalls he needed a doorstop for his kitchen and used that old brass
+        cylinder. He used it for a decade until earlier this year he was in for a surprise.  Mr
+        Döggflava slammed the door too hard, broke the cylinder, and it revealed a piece of paper
+        inside. Mr.  Döggflava thinks the note is some visitor's list of attractions from some past
+        exposition. He's been curious about the funny scribbles at the top. Is it
+        {' '}<a href="https://en.wikipedia.org/wiki/Gregg_shorthand">shorthand</a>?
         For your amusement, here is a reproduction of Mr. Döggflava's sightseeing list:
       </p>
       <p>
@@ -55,25 +52,25 @@ export function CalAcademy(props) {
           (1) arboretum bridge
         </div>
         <div>
-          (2) tower of jewels
+          (2) daniel boone
         </div>
         <div>
-          (3) zone
+          (3) food
         </div>
         <div>
-          (4) court of abundance
+          (4) bonet tower
         </div>
         <div>
-          (5) palace of fine a.
+          (5) mining camp
         </div>
         <div>
           (6) music concourse
         </div>
         <div>
-          (7) energy fountain
+          (7) haunted swing
         </div>
         <div>
-          (8) education and social economy
+          (8) eskimo village
         </div>
       </blockquote>
       <AnswerForm correctAnswer="music concourse" linkTo={props.linkTo} currentScreen={props.currentScreen} />

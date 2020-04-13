@@ -41,9 +41,9 @@ export function MusicConcourse(props) {
           <Dit> --- -• • </Dit>
         </div>
         <div>
-          T _ _ _ _ _ _ = <Dit> -•-• •- •-•• •• ••-• --- •-• -• •• •- / </Dit>
-          <Dit> •- -•-• •- -•• • -- -•-- / </Dit>
-          <Dit> •-•• --- -••• -••• -•-- </Dit>
+          T _ _ _ _ _ _ = <Dit> - ••- •-•• •• •--• ••• / </Dit>
+          <Dit> -• • •- •-• / </Dit>
+          <Dit> •-- •• -• -•• -- •• •-•• •-•• </Dit>
         </div>
       </blockquote>
 
