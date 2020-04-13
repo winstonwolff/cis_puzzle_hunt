@@ -34,7 +34,7 @@ export class AnswerForm extends React.Component {
       <form className="AnswerForm">
         <div>
           <label>
-            What is your answer:
+            What is the next location?
             &nbsp;
             <input className="answer" type="text" onChange={this.updateAnswer} />
           </label>
