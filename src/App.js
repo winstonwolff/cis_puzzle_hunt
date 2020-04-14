@@ -6,6 +6,8 @@ import { CalAcademy } from './CalAcademy.js'
 import { MusicConcourse } from './MusicConcourse.js'
 import { Windmill } from './Windmill.js'
 import { CliffHanger } from './CliffHanger.js'
+import { CenterImage } from './Image.js'
+import titleType from './TitleType.png'
 
 class App extends React.Component {
   constructor() {
@@ -25,6 +27,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
+          <CenterImage className='titleType' src={titleType} />
           <ComponentName linkTo={this.linkTo} currentScreen={this.state.currentScreen} />
         </header>
       </div>

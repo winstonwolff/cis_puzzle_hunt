@@ -1,5 +1,5 @@
 import React from 'react'
-import ggPark1897 from './GG-park-1897-stereo.jpg'
+import midwinterExpo from './midwinter-expo.jpeg'
 import { InlineImage } from './Image.js'
 import { AnswerForm } from './AnswerForm'
 import "./puzzle.scss"
@@ -8,8 +8,15 @@ import "./Home.scss"
 export function Home(props) {
   return (
     <div className="puzzle Home">
-      <InlineImage className="ggPark1897" src={ggPark1897} />
-      <h1> Golden Gate Puzzle Hunt </h1>
+      <InlineImage className="expo-image" src={midwinterExpo} />
+      <h1> Treasure of the Gilded Globle </h1>
+      <p>
+        SF's 1894 Midwinter Exposition demonstrated amazing new inventions from around the world and
+        showcased a globe of solid gold to celebrate it's mining wealth.  Wolff-Tang Studios has
+        discovered the globe was also the prize of a secret puzzle/scavenger hunt. But the final puzzle
+        was never solved and the prize was never awarded. Recently a new clue was found. Can you solve
+        the mystery?
+      </p>
       <p>
         This game is a puzzle hunt—your team starts at a virtual location with a puzzle.
         When you solve the puzzle, your answer leads to a new location and puzzle. We
