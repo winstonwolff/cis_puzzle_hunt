@@ -4,7 +4,7 @@ import { AnswerForm } from './AnswerForm'
 
 export function Windmill(props) {
   return (
-    <div className="puzzle CalAcademy">
+    <div className="puzzle Windmill">
       <p>
             Location Clue: tulips near windmill
       </p>

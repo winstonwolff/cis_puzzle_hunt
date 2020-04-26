@@ -15,5 +15,6 @@ Developer Setup
 Deploy to production
 -------------------
 
-
   yarn build
+  ./publish.py production
+
